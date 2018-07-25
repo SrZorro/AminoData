@@ -1,0 +1,33 @@
+{
+  "name": "aminodata",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node src/index.ts"
+  },
+  "author": "Marc 'Fox' Salva Montaner <fox@foxdev.io>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/mongodb": "^3.1.1",
+    "@types/node": "^10.5.2",
+    "ts-node": "^7.0.0",
+    "tslint": "^5.10.0",
+    "typescript": "^2.9.2"
+  },
+  "dependencies": {
+    "@types/dotenv": "^4.0.3",
+    "@types/knex": "^0.14.16",
+    "@types/uuid": "^3.4.3",
+    "aminobotapi": "file:../AminoBotAPI",
+    "aminoclient": "file:../AminoClient",
+    "dotenv": "^6.0.0",
+    "knex": "^0.15.1",
+    "moment": "^2.22.2",
+    "mongodb": "^3.1.1",
+    "objection": "^1.2.0",
+    "pg": "^7.4.3",
+    "uuid": "^3.3.2"
+  }
+}
